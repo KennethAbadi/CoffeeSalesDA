@@ -117,7 +117,7 @@ matplotlib
 
 | Model | R² Score | MAE | RMSE |
 |-------|----------|-----|------|
-| Random Forest ⭐ | 0.5592 | 2.95 | 3.72 |
+| Random Forest | 0.5592 | 2.95 | 3.72 |
 | Gradient Boosting | 0.3876 | 3.56 | 4.38 |
 | Ridge Regression | -13.97 | 18.58 | 21.68 |
 | Linear Regression | -14.56 | 18.89 | 22.10 |
