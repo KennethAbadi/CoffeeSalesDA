@@ -2,11 +2,11 @@
 
 A comprehensive exploratory data analysis (EDA) and predictive modeling project analyzing coffee sales patterns, revenue trends, and forecasting future sales using machine learning.
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes coffee sales data to uncover patterns in customer purchasing behavior, identify top-performing products and time periods, and build predictive models to forecast future sales. The analysis includes visualizations of sales trends by date, week, month, day of week, and coffee type, along with revenue analysis and machine learning predictions.
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: `raw_data/index_1.csv` From [Kaggle.com](https://www.kaggle.com/datasets/ihelon/coffee-sales/data)
 - **Records**: Coffee sales transactions
@@ -18,7 +18,7 @@ This project analyzes coffee sales data to uncover patterns in customer purchasi
   - `cash_type`: Payment method
   - `card`: Card information
 
-## 🔍 Analysis Performed
+## Analysis Performed
 
 ### 1. Data Cleaning
 - Handled missing values in card column
@@ -70,7 +70,7 @@ Compared 4 different machine learning models for sales forecasting:
 - Non-linear models vastly outperform linear models due to complex weekly/seasonal patterns
 - Random Forest successfully captures sales momentum and weekly patterns
 
-## 🛠️ Requirements
+## Requirements
 
 ```python
 pandas
@@ -78,7 +78,7 @@ numpy
 matplotlib
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -113,7 +113,7 @@ matplotlib
 - Subplots: Monthly revenue by coffee type
 - Model comparison: Actual vs predicted sales for 4 different algorithms
 
-## 🎯 Model Comparison Results
+## Model Comparison Results
 
 | Model | R² Score | MAE | RMSE |
 |-------|----------|-----|------|
@@ -122,7 +122,7 @@ matplotlib
 | Ridge Regression | -13.97 | 18.58 | 21.68 |
 | Linear Regression | -14.56 | 18.89 | 22.10 |
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Incorporate external factors (holidays, weather, promotions)
 - Analyze hourly sales patterns if timestamp data available
@@ -130,11 +130,7 @@ matplotlib
 - Inventory optimization recommendations
 - A/B testing for promotional strategies
 
-## 📝 License
-
-This project is available for educational and analytical purposes.
-
-## 👤 Author
+## Author
 
 Kenneth Abadi
 
